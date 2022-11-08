@@ -14,4 +14,8 @@ Après entrainement du modèle on check les résultats avec le score d'accuracy 
 Pour répondre à la question de comment améliorer le modèle, on peut s'y prendre avec plusieurs approches
 - faire une optimisation des hypèreparamètres avec une Gridsearch, Randomsearch ou Bayesiansearch (on l'a run en fin de projet)
 - tester d'autres classifieurs (on a testé plusieurs classifieurs et on a décidé de garder le Ridge le PassiveAggressive) 
-- faire appel à des techniques d'ensembles notamment le stacking pour utiliser plusieurs weak classifiers (pour la stack choisi c'est un 3lr + 3ridge
+- faire appel à des techniques d'ensembles notamment le stacking pour utiliser plusieurs weak classifiers (pour la stack choisi c'est un 3rl + 3ridge + PassiveAggressive avec une régression logistique comme éstimateur finale)
+On constat l'évolution des performances (On a pas fait d'optimisation d'hyperparamètres par manque de ressources de calculs)
+
+Partie 3: Extraction des 10 mots les plus lourd dans la règle de décision
+
